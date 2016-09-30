@@ -1,7 +1,12 @@
 
-## Spherical Harmonic Rotation, July 2004
+## Spherical Harmonic Rotation
+#### Don Williamson (http://donw.io), July 2004
 
 I've had this implementation on my HD for quite a while, trying to find time to prepare it for the website. There were a few bugs in the original implementation which Richard Furse was kind enough to point out and I've repackaged everything so as to be useful in realtime game code. This is only a second design pass on the so you'll no doubt want to refactor the code yourself if you'll ever use it.
+
+<p align="center">
+  <img src="Screenshot.png?raw=true" alt="Screenshot"/>
+</p>
 
 The simple goal is, provided with a 3x3 rotation matrix, generate an SH rotation matrix, non-analytically, over an abitrary number of bands. Two prominent methods for achieving this are provided by Ivanic/Ruedenberg and Choi. Implementations of both are provided that adhere to the respective papers (and corrections).
 
