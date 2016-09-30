@@ -1,7 +1,7 @@
 
 ##### Spherical Harmonic Rotation
 ##### Don Williamson (http://donw.io), July 2004
----
+-
 
 I've had this implementation on my HD for quite a while, trying to find time to prepare it for the website. There were a few bugs in the original implementation which Richard Furse was kind enough to point out and I've repackaged everything so as to be useful in realtime game code. This is only a second design pass on the so you'll no doubt want to refactor the code yourself if you'll ever use it.
 
@@ -12,7 +12,7 @@ Choi's method works by calculating the rotation matrices using complex numbers. 
 
 
 ##### Use
----
+-
 
 Original OpenGL rotated spherical function is on the left.
 SH rotated spherical function is on the right.
@@ -23,7 +23,7 @@ Hold [Space] + [c] = match rotation with Choi
 
 
 ##### Acknowledgements
----
+-
 
 Thanks to Richard Furse for highlighing errors in
 the original code, Robin Green for the NRook pointer, Cheol Ho Choi for paying
@@ -32,6 +32,6 @@ for discussing their original algorithm.
 
 
 ##### References
----
+-
 
 In the source code.
